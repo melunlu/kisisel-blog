@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Kişisel Blog - MELİKE ÜNLÜ</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0 auto;
+      max-width: 1000px;
+      background: #f8f5fc;
+      padding: 20px;
+      color: #2c003e;
+    }
+    nav {
+      background: #6a0dad;
+      padding: 15px;
+      text-align: center;
+      border-radius: 10px;
+      position: sticky;
+      top: 0;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 8px 15px;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+    nav a:hover {
+      background: #4b0082;
+    }
+    section { margin: 50px 0; }
+    h1, h2 { color: #4b0082; }
+    .skill-bar { margin: 10px 0; }
+    .skill-name { margin-bottom: 5px; font-weight: bold; }
+    .progress { background: #ddd; border-radius: 10px; overflow: hidden; }
+    .progress div {
+      height: 20px;
+      text-align: center;
+      color: white;
+      font-size: 12px;
+    }
+    .html { width: 90%; background: #6a0dad; }
+    .css { width: 75%; background: #9370db; }
+    .java { width: 60%; background: #ba55d3; }
+    .csharp { width: 80%; background: #9932cc; }
+    .sql { width: 95%; background: #4b0082; }
+    footer {
+      text-align: center;
+      background: #e6e6fa;
+      padding: 10px;
+      margin-top: 30px;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav>
+    <a href="#hakkimda">Hakkımda</a>
+    <a href="#yetenekler">Yeteneklerim</a>
+    <a href="#video">Video</a>
+    <a href="#hobilerim">Hobilerim</a>
+    <a href="#sunum">Sunum</a>
+    <a href="#iletisim">İletişim</a>
+  </nav>
+
+  <!-- Hakkımda -->
+  <section id="hakkimda">
+    <h1>Hakkımda</h1>
+    <p>Merhaba, ben Melike ÜNLÜ. Süleyman Demirel Üniversitesi 3. sınıf Bilgisayar Mühendisliği öğrencisiyim. 
+       Yazılım geliştirme ile ilgileniyorum. 
+       Aynı zamanda Teknofest 2025'te Akıllı Ulaşım kategorisinde yarı finale kadar ilerledim.Projemi görmek için aşağıya doğru ilerleyebilirsin.
+       Hedefim başarılı bir full-stack developer olmak.</p>
+    <img src="mel.jpg" alt="Benim Fotoğrafım" width="200">
+  </section>
+
+  <!-- Yetenekler -->
+  <section id="yetenekler">
+    <h2>Bilgisayar Dillerine Hakimiyetim</h2>
+    <div class="skill-bar">
+      <div class="skill-name">HTML</div>
+      <div class="progress"><div class="html">90%</div></div>
+    </div>
+    <div class="skill-bar">
+      <div class="skill-name">CSS</div>
+      <div class="progress"><div class="css">75%</div></div>
+    </div>
+    <div class="skill-bar">
+      <div class="skill-name">Java</div>
+      <div class="progress"><div class="java">60%</div></div>
+    </div>
+    <div class="skill-bar">
+      <div class="skill-name">C#</div>
+      <div class="progress"><div class="csharp">80%</div></div>
+    </div>
+    <div class="skill-bar">
+      <div class="skill-name">SQL</div>
+      <div class="progress"><div class="sql">95%</div></div>
+    </div>
+  </section>
+
+  <!-- Video -->
+  <section id="video">
+    <h2>Kısa Video</h2>
+    <p>Benim hakkımda kısa bir video:</p>
+    <video width="500" height="400" controls>
+      <source src="tanitimvideo.mp4" type="video/mp4">
+      Tarayıcınız video oynatmayı desteklemiyor.
+    </video>
+  </section>
+
+  <!-- Hobilerim -->
+  <section id="hobilerim">
+    <h2>Hobilerim</h2>
+    <ul>
+      <li>Voleybol oynamak</li>
+      <li>Satranç oynamak</li>
+      <li>Yüzmek</li>
+    </ul>
+  </section>
+
+  <!-- Sunum -->
+  <section id="sunum">
+    <h2>Proje Sunumum</h2>
+    <p>
+      <a href="guvenli-surus-sunum.pptx" target="_blank">
+        PowerPoint Sunumumu Aç
+      </a>
+    </p>
+  </section>
+
+  <!-- İletişim -->
+  <section id="iletisim">
+    <h2>İletişim</h2>
+
+    <p>Bana <a href="https://mail.google.com/mail/?view=cm&fs=1&to=melunlu16@gmail.com" target="_blank">
+   melunlu16@gmail.com</a>
+   adresinden ulaşabilirsiniz
+    </p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Melike Ünlü - Okul No: 2311012056</p>
+  </footer>
+</body>
+</html>
